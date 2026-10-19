@@ -1,0 +1,16 @@
+# RDUS00031 DEV: game flags + Lua are read from /data/dl_patches (editable over FTP)
+--path-vmc="/tmp/vmc"
+--path-trophydata="/app0/trophy_data"
+--host-osd=0
+--host-audio=1
+--ps2-title-id=SLES-00000
+--ps2-lang=system
+--rom="PS20220WD20050620.crack"
+--path-patches="/data/dl_patches"
+--path-featuredata="/app0/feature_data"
+--path-emulog="/data/dl_emulog"
+--path-recordings="/data/dl_emulog"
+--path-snaps="/data/dl_emulog"
+--gs-uprender=none
+--gs-upscale=none
+--host-display-mode=16:9

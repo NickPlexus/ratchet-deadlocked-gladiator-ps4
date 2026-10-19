@@ -1,0 +1,6 @@
+*.iso
+*.pkg
+*.bin
+*.self
+*.p2s
+Logs/
