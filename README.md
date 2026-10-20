@@ -120,6 +120,7 @@ try changes without reinstalling. A full example is in `configs/package/`.
   VIF1 kick, LZ decompressor and loader), how the Scalerize patch works, the emulator's Lua API, flags and pitfalls, WAD/LZ/text formats,
   what was tried and failed, open problems.
 - **[docs/FINDINGS.md](docs/FINDINGS.md)**: the short story of the fixes.
+- **[docs/MATHS_FINDINGS.md](docs/MATHS_FINDINGS.md)**: how we arrived at the maths settings, step by step, and what did and did not break.
 - **[tools/](tools/)**: disassemblers, PCSX2 savestate patcher, a PS4-Lua simulator, the Insomniac LZ compressor, text tools.
 
 ### Known issues
