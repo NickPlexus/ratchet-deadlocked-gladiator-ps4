@@ -114,6 +114,14 @@ try changes without reinstalling. A full example is in `configs/package/`.
 ```
 </details>
 
+### For developers
+
+- **[docs/TECHNICAL_REFERENCE.md](docs/TECHNICAL_REFERENCE.md)**: memory map and addresses (main loop, joint/VU0 routine, skinning writer,
+  VIF1 kick, LZ decompressor and loader), how the Scalerize patch works, the emulator's Lua API, flags and pitfalls, WAD/LZ/text formats,
+  what was tried and failed, open problems.
+- **[docs/FINDINGS.md](docs/FINDINGS.md)**: the short story of the fixes.
+- **[tools/](tools/)**: disassemblers, PCSX2 savestate patcher, a PS4-Lua simulator, the Insomniac LZ compressor, text tools.
+
 ### Known issues
 
 - **Loading a save made at Dreadzone Station freezes** on the loading screen (US and EU). Saves made elsewhere load fine, and
@@ -179,6 +187,8 @@ Ratchet: Deadlocked годами числилась **неиграбельной
 `patches` пакета (`SCUS-97465_*` для US, `SCES-53285_*` для EU). Образов и PKG здесь нет и не будет.
 
 **Известная проблема:** не загружается сохранение, сделанное на Станции зоны ужаса. Не сохраняйтесь там, остальные сохранения работают.
+
+**Для разработчиков:** карта адресов, устройство патчей, API и подводные камни эмулятора — в **[docs/TECHNICAL_REFERENCE.md](docs/TECHNICAL_REFERENCE.md)** (на английском), инструменты — в **[tools/](tools/)**.
 
 **Русификатор** для EU-версии выйдет отдельно.
 
